@@ -17,7 +17,7 @@ export class Component2Component implements OnInit {
   display()
   {
     console.log(this.data);
-    this.exchange.setData(this.data);
+    this.exchange.setData(this.data)
     
     
   }
